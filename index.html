@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>test po mateshe</title>
+  </head>
+  <body>
+  	<div class="container q1">
+  		<div>
+  			<h2>Кто был первым человеком на луне</h2>
+  		</div>
+  		<div class="border py-3 px-3 otvet1">Юрий Гагарин</div>
+  		<div class="border py-3 px-3 otvet2">Нил Армстронг</div>
+  		<div class="border py-3 px-3 otvet3">Дин Армстронг</div>
+  	</div>
+  	<div class="container q2" style="display:none">
+  		<div>
+  			<h2>Kto takoy atkahan lazarev</h2>
+  		</div>
+  		<div class="border py-3 px-3 otvet4">ricardo milos</div>
+  		<div class="border py-3 px-3 otvet5">otlishnik</div>
+  		<div class="border py-3 px-3 otvet6">flexer</div>
+  	</div>
+  	<div class="container q3" style="display:none">
+  		<div>
+  			<h2>skolko kostey u cheloveka</h2>
+  		</div>
+  		<div class="border py-3 px-3 otvet7">ya ne znau</div>
+  		<div class="border py-3 px-3 otvet8">205</div>
+  		<div class="border py-3 px-3 otvet9">1337</div>
+  	</div>
+  	<div class="container q4" style="display:none">
+  		<div>
+  			<h2>skolko ludey na earth</h2>
+  		</div>
+  		<div class="border py-3 px-3 otvet10">7kkk</div>
+  		<div class="border py-3 px-3 otvet11">6kkk</div>
+  		<div class="border py-3 px-3 otvet12">7kk</div>
+  	</div>
+  	<div class="container q5" style="display:none">
+  		<div>
+  			<h2>Kto eto?</h2>
+  			<img src="atkahan.jpg">
+  		</div>
+  		<div class="border py-3 px-3 otvet13"></div>
+  		<div class="border py-3 px-3 otvet14"></div>
+  		<div class="border py-3 px-3 otvet15"></div>
+  	</div>
+    <script type="text/javascript">
+    	//q1
+    	document.querySelector(".otvet1").onclick = function(){
+    		alert("ti cho konch")
+    	}
+    	document.querySelector(".otvet2").onclick = function(){
+    		alert("krasavchik")
+    		document.querySelector(".q1").style.display = "none"
+       		document.querySelector(".q2").style.display = "block"
+    	}
+    	document.querySelector(".otvet3").onclick = function(){
+    		alert("ti cho ne umniy")
+
+    	}
+    	//q2
+    	document.querySelector(".otvet4").onclick = function(){
+    		alert("otlichno")
+    		document.querySelector(".q2").style.display = "none"
+       		document.querySelector(".q1").style.display = "block"
+    	}
+    	document.querySelector(".otvet5").onclick = function(){
+    		alert("pravilno")
+    		document.querySelector(".q2").style.display = "none"
+       		document.querySelector(".q1").style.display = "block"
+    	}
+    	document.querySelector(".otvet6").onclick = function(){
+    		alert("ti cho debil")
+    		document.querySelector(".q2").style.display = "none"
+       		document.querySelector(".q3").style.display = "block"
+    	}
+    	//q3
+    	document.querySelector(".otvet7").onclick = function(){
+    		alert("pravilno kto vashe znaet")
+    		document.querySelector(".q3").style.display = "none"
+       		document.querySelector(".q4").style.display = "block"
+    	}
+    	document.querySelector(".otvet8").onclick = function(){
+    		alert("net")
+    	}
+    	document.querySelector(".otvet9").onclick = function(){
+    		alert("nit")
+    	}
+    	//q4
+    	document.querySelector(".otvet10").onclick = function(){
+    		alert("muzhikcho")
+    		document.querySelector(".q4").style.display = "none"
+       		document.querySelector(".q5").style.display = "block"
+    	}
+    	document.querySelector(".otvet11").onclick = function(){
+    		alert("nettttt")
+    	}
+    	document.querySelector(".otvet13").onclick = function(){
+    		alert("niiiiit")
+    	}
+    	//q5
+    </script>
+  </body>
+</html>
